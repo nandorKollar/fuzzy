@@ -3,10 +3,11 @@
 
 class FuzzySet
 {
-	public:
-	
-	private:
-	
+   public:
+      double membership(double x);
+      
+   private:
+      virtual double membershipFunction(double x);
 }
 
 #endif
